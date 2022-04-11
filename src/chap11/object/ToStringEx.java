@@ -9,6 +9,7 @@ class Book {
         this.author = author;
     }
 
+    //Book클래스에서 toString메소드 오버라이딩
     @Override
     public String toString() {
         return "title : " + title + ", author : " + author;
