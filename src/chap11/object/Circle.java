@@ -26,6 +26,4 @@ public class Circle implements Cloneable {  //해당객체를 복제해도 된�
 		// TODO Auto-generated method stub
 		return super.clone();
 	}
-	
-		
 }
