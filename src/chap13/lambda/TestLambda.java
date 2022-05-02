@@ -12,7 +12,7 @@ public class TestLambda {
 
         PrintString reStr = returnString();
         reStr.showString("hello");
-        System.out.println("git test1111");
+        System.out.println("git test11111");
     }
 
     private static PrintString returnString() {
