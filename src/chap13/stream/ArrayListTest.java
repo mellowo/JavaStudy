@@ -12,7 +12,5 @@ public class ArrayListTest {
 
         Stream<String> stream = sList.stream();
         stream.forEach(s -> System.out.println(s));
-
-
     }
 }
