@@ -1,13 +1,21 @@
 package chap13.stream;
 
+import java.io.ObjectInputStream.GetField;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.stream.Collector;
 import java.util.stream.Collectors;
 import java.util.stream.Stream;
 
+class Person {
+	String name;
+	int age;
+}
+
 public class ArrayListStreamTest {
 	public static void main(String[] args) {
+		
+		
 		ArrayList<Integer> al = new ArrayList<Integer>();
 		
 		al.add(1);
