@@ -1,19 +1,22 @@
 package chap15.stream.inputstream;
 
 import java.io.IOException;
+import java.io.InputStream;
 
 public class SystemInTest {
 	public static void main(String[] args) {
-		System.out.println("알파벳 하나를 쓰고 엔터를 누르세요");
-		int i=0;
+		byte[] bytes = new byte[4096];
 
 		try {
-			while((i = System.in.read()) != '\n') {
-				System.out.print((char)i);
+			System.in.read(bytes,0,4096);
+
+			for(int i : bytes){
+				System.out.println((char)i);
 			}
 		} catch (IOException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
+
+
 	}
 }

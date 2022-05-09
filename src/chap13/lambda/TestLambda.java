@@ -22,4 +22,5 @@ public class TestLambda {
     private static void showMyString(PrintString p) {
         p.showString("hello lambda_2");
     }
+
 }
