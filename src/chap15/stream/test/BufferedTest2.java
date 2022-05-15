@@ -16,6 +16,5 @@ public class BufferedTest2 {
         }catch (IOException e){
             e.printStackTrace();
         }
-
     }
 }
