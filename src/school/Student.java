@@ -2,6 +2,7 @@ package school;
 
 import java.util.ArrayList;
 
+//Student : Subject = 1 : N , Student : Score = 1 : N
 public class Student {
 
     private int studentId;

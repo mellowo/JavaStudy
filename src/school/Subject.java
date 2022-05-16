@@ -1,6 +1,5 @@
 package school;
 
-import java.sql.Struct;
 import java.util.ArrayList;
 
 public class Subject {
